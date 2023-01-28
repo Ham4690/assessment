@@ -5,6 +5,7 @@ body {
 .Main {
   background-color: #04a6ed;
   padding: 5%;
+  margin: 5%;
   color: #fdffff;
   width: 500px;
   margin-right: auto;
@@ -25,4 +26,13 @@ body {
 }
 .MainButton:active {
   opacity: 0.8;
+}
+
+.Footer {
+  background-color: #373737;
+  color: #fdffff;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
 }/*# sourceMappingURL=assessment.css.map */
