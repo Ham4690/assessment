@@ -1,0 +1,36 @@
+$body-bg-color: #bdebff;
+$main-bg-color: #04a6ed;
+$main-btn-color: #a2a2a2;
+
+
+body {
+  background-color: $body-bg-color;
+}
+
+.Main {
+  background-color: $main-bg-color;
+  padding:5%;
+  color: #fdffff;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 0.5rem;
+
+  &Input {
+    height: 32px;
+  }
+  
+  &Button {
+    padding: 5px 20px;
+    background-color: $main-btn-color;
+    border-style: inset;
+    color: #fdffff;
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:active {
+      opacity: 0.8;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+body {
+  background-color: #bdebff;
+}
+
+.Main {
+  background-color: #04a6ed;
+  padding: 5%;
+  color: #fdffff;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 0.5rem;
+}
+.MainInput {
+  height: 32px;
+}
+.MainButton {
+  padding: 5px 20px;
+  background-color: #a2a2a2;
+  border-style: inset;
+  color: #fdffff;
+}
+.MainButton:hover {
+  cursor: pointer;
+}
+.MainButton:active {
+  opacity: 0.8;
+}/*# sourceMappingURL=assessment.css.map */
